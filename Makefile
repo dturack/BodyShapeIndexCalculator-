@@ -5,9 +5,9 @@
 all: lab8
 
 lab8: lab8.cpp
-	g++ lab8.cpp -Wall -oexam -lX11 -lGL -lGLU -lm
+	g++ lab8.cpp -Wall -olab8 -lX11 -lGL -lGLU -lm
 
 clean:
-	rm -f exam
+	rm -f lab8
 	rm -f *.o
 
